@@ -1,0 +1,221 @@
+body {
+  font-family: Arial, Helvetica, sans-serif; margin: 0; 
+  font-weight: lighter;
+}
+.top {
+  background-image: url(IMG-20240105-WA0006.png); background-size: cover;
+  height: 90vh;
+  background-color:#FFD966;
+  opacity: 100%; z-index: -0;
+}
+.menu img {
+  float: left; 
+  width:100px; 
+  padding-left: 90px;
+}
+.bghitam {
+  height: 90vh; 
+  position:absolute;
+  top:0;
+  left: 34; right: 34;
+  opacity: 50%; 
+  z-index: -0;
+}
+
+  /* Dropdown Button */
+  .dropbtn {
+    background-color: #c3edde;
+    color: rgb(4, 0, 255);
+    padding: 16px;
+    font-size: 60px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;
+  }
+
+.menu ul{
+  list-style: none;display: inline-flex; float: right; 
+  padding-left: 20px; 
+  padding-top: 10px;
+}
+.menu ul li{
+  padding-right: 10px;
+  }
+.menu ul li a
+{text-decoration: none; 
+cursor: pointer; 
+color: black;
+}
+.menu ul li a:hover {color: #1CAAE9;}
+.text { 
+  text-align: right; 
+  padding-right: 230px;
+  padding-top: 330px;
+  color: black;
+  font-weight: lighter;
+}
+.text h1 {
+  font-size: 10px;
+}
+.text p {
+  font-size: 10px;
+}
+.text span {
+  background: #1CAAE9;
+  border-radius: 90px;
+  padding: 20px;
+}
+.text span a{
+  text-decoration: none; 
+color: black;
+border: 1px solid transparent;
+padding-top: 20px;
+}
+#jurusan { 
+  padding-top: 50px; 
+  text-align: center; 
+}
+#jurusan h2 h3 p {
+  font-weight: lighter; 
+}
+#jurusan p {opacity: 70%;
+}
+.keahlian img{
+  width: 50px; 
+}
+.keahlian {
+  padding-top: 50px;
+}
+.grid {
+  display: 
+grid; grid-template-columns: 1fr 1fr 1fr;
+width: 80%;
+margin: auto;
+}
+.depan { opacity: 70%; 
+padding-top: 50px;
+}
+.depan img {
+  width: 100%;
+  z-index: -3;
+  height: 300px;
+}
+.struktur img {
+  width: 100px;
+}
+.organisasi {
+  text-align: center; font-weight: lighter; padding-top: 50px;
+}
+.organisasi h1 {
+opacity: 80%;
+}
+.organisasi p{
+  opacity: 70%;
+}
+.grid2 {display: grid; grid-template-columns: 1fr 1fr;}
+
+.subscribe 
+{background: black; 
+height: 100px; 
+color: white; 
+font-weight: lighter; 
+text-align: center; 
+opacity: 90%; padding-top: 20px; padding-bottom: 40px;}
+.subscribe a{ 
+  border: 1px solid transparent;
+  background: red; 
+  color: white;
+text-decoration: none;
+padding: 10px; 
+border-radius: 5px;
+}
+.berita{
+  text-align: center;
+  padding-top: 50px;
+  
+}
+.berita p{opacity: 50%;
+  
+}
+.grid4 {
+  display: grid; grid-template-columns: 1fr 1fr 1fr; width: 90%;
+  margin: auto;
+
+}
+.grid3 p h2 {
+  text-align: left;
+}
+.grid3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.20);
+  padding: 20px;
+}
+.grid3 a{
+  text-decoration: none; 
+  border: 1px solid transparent;
+  padding: 10px; background:#1CAAE9; 
+  border-radius: 50px;
+  color: white; 
+}
+.grid3 img {
+  border-radius: 4px 4px 0 0;
+}
+.kontak {
+  background-image: url(img/bg2.png); 
+  height:80vh; 
+  background-size: cover; 
+  width: 100%;
+}
+.des {
+  width: 20%; 
+  padding-left: 12px; 
+  color: rgb(12, 8, 8); 
+  padding-top: 80px;
+}
+.footer {
+  background: rgb(10, 10, 10); 
+  color: rgb(255, 245, 245); 
+  opacity: 90%;
+  padding: 20px;
+  padding-left: 120px;
+  
+}
+.footer p{
+  opacity: 50%;
+}
+.footer a{
+  text-decoration: none; color: rgb(19, 17, 17);
+}
+
+
+  
